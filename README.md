@@ -1,6 +1,6 @@
 # 166-Cargo
 
-# Hello everybody! :wave:
+# Hello everybody! :truck:
 
 ## In this project, I took the _ 166 Cargo :bus: _ project as such.
 
