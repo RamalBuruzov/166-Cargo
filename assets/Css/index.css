@@ -6,10 +6,17 @@ body {
   width: 100%;
   height: 100%;
 }
+p {
+  font-family: var(--primaryFont--);
+}
 
 .container {
   display: flex;
   flex-direction: column;
+}
+
+header {
+  padding-bottom: 20px;
 }
 
 .customer {
@@ -21,7 +28,15 @@ body {
 .Korperativ {
   border-radius: 6px;
   align-items: center;
+  border: 1px solid rgba(128, 128, 128, 0.358);
+  border-radius: 6px;
+  height: 45px;
 }
+
+.customer p {
+  margin-bottom: 0;
+}
+
 .search {
   padding-left: 350px;
   display: flex;
@@ -45,4 +60,14 @@ body {
 .logo {
   /* margin: 0 0 0 20px; */
   padding-left: 10px;
+}
+
+.headerRight {
+  display: flex;
+  align-items: center;
+  gap: 58px;
+}
+
+.onlaynÖdeniş p {
+  padding-top: 15px;
 }
