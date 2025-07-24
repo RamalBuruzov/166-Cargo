@@ -41,7 +41,20 @@ header {
   padding-left: 350px;
   display: flex;
   align-items: center;
+  border: rgba(128, 128, 128, 0.404);
+  border-radius: 10px;
 }
+
+.input {
+  padding-left: 15px;
+  border: none;
+  width: 100%;
+}
+
+.linkler {
+  padding-right: 20px;
+}
+
 .call {
   border: 2px solid var(--primaryColor--);
   margin-left: 20px;
@@ -70,4 +83,26 @@ header {
 
 .onlaynÖdeniş p {
   padding-top: 15px;
+  padding-left: 15px;
+}
+
+.navbar {
+  margin-left: 200px;
+  margin-top: 0;
+}
+
+ul {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.bookACall {
+  background-color: var(--primaryColor--);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  width: 130px;
+  height: 40px;
 }
