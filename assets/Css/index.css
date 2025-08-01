@@ -102,14 +102,22 @@ ul {
   align-items: center;
   gap: 20px;
 }
+.əsasSehive {
+  width: 100px;
+  text-align: center;
+}
 
 .bookACall {
   background-color: var(--primaryColor--);
   border-radius: 5px;
   display: flex;
   align-items: center;
-  width: 130px;
+  width: 150px;
   height: 40px;
+}
+
+.bookACall p {
+  color: white;
 }
 
 .secondSection ul {
