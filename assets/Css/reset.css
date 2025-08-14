@@ -136,3 +136,6 @@ a {
 a:hover {
   color: var(--primaryColor--);
 }
+li {
+  font: 400 13px var(--primaryFont--);
+}
