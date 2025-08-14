@@ -32,7 +32,7 @@ header {
   align-items: center;
   border: 1px solid rgba(128, 128, 128, 0.358);
   border-radius: 6px;
-  height: 22px;
+  height: 40px;
 }
 
 .customer p {
@@ -93,16 +93,6 @@ header {
 .onlaynÖdeniş p {
   padding-top: 15px;
   padding-left: 15px;
-}
-.musteriler {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.musteriler2 {
-  display: flex;
-  align-items: center;
-  gap: 15px;
 }
 
 .navbar {
