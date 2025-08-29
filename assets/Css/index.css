@@ -133,6 +133,7 @@ ul {
 
 .secondSection {
   margin-top: 54px;
+  margin-bottom: 60px;
 }
 
 .secondSection ul li:not(:last-child) {
@@ -270,6 +271,9 @@ div > svg {
   border-radius: 10px;
   width: 239px;
   height: 192px;
+}
+main {
+  margin-bottom: 20px;
 }
 
 .xidmetLogo {
@@ -412,4 +416,32 @@ div > svg {
 .containerAltYazi p {
   font: 400 14px var(--primaryFont--);
   padding-bottom: 20px;
+}
+
+.xettTutan {
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+.card img {
+  height: 370px;
+  width: 300px;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.card {
+  height: 408px;
+  width: 350px;
+
+  justify-content: center;
+  align-items: center;
+  border: none;
+  margin-bottom: 40px;
+}
+.card p {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+.rehber {
+  color: #4c4c4c94;
 }
