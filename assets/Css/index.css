@@ -80,6 +80,11 @@ header {
   padding-left: 10px;
 }
 
+.logo img {
+  width: 100px;
+  height: 100px;
+}
+
 .headerRight {
   display: flex;
   align-items: center;
@@ -284,27 +289,27 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  font: 600 20pxvar (--PrimaryFont);
+  font: 600 20px var(--primaryFont--);
   color: white;
   margin-bottom: 18px;
 }
 
 .xidmetTitle {
-  font: 600 20px var (--PrimaryFont);
+  font: 600 20px var(--primaryFont--);
   color: #111827;
   margin-bottom: 10px;
 }
 
 .xidmetTitle p {
-  font: 600 20px var (--PrimaryFont);
+  font: 600 20px var(--primaryFont--);
 }
 .haqqimizdaTitle p {
-  font: 600 32px var (--PrimaryFont);
-  color: #111827;
+  font: 600 32px var(--primaryFont--) !important;
+  color: #111827 !important;
 }
 
 .xidmetDesc {
-  font: 400 16px var (--PrimaryFont);
+  font: 400 16px var(--primaryFont--);
   color: #4c4c4c;
 }
 
@@ -392,6 +397,7 @@ footer {
 }
 
 .logo {
+  width: 100%;
   display: flex;
   align-items: center;
   flex: row !important;
@@ -404,6 +410,10 @@ footer {
   width: 28px;
   height: 27px;
   border-radius: 14px;
+}
+.containerUl .logo {
+  display: flex;
+  align-items: center;
 }
 
 .containerAltYazi {
