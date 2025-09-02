@@ -416,6 +416,12 @@ footer {
   align-items: center;
 }
 
+.haqqimizdaContainerLeft1 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
 .containerAltYazi {
   background-color: var(--primaryColor--);
   width: 100%;
