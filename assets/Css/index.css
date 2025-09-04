@@ -523,3 +523,39 @@ footer {
 .zeng {
   padding-bottom: 10px;
 }
+
+.suallarinizVarContainer {
+  margin-top: 70px;
+}
+
+.suallarinizVarContainer div {
+  width: 125px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: var(--primaryColor--);
+  border: 2px solid var(--primaryColor--);
+  border-radius: 8px;
+}
+.suallarinizVarContainer div p {
+  color: white;
+  font: 600 16px var(--primaryFont--);
+}
+
+.containerSearch:nth-child(2) {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.search2 {
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.containerSearch {
+  display: flex;
+}
