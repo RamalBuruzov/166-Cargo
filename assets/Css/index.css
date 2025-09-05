@@ -544,6 +544,11 @@ footer {
   font: 600 16px var(--primaryFont--);
 }
 
+.suallarinizVarContainer button {
+  border: none;
+  background-color: var(--primaryColor--);
+  border-radius: 8px;
+}
 .containerSearch:nth-child(2) {
   display: flex;
   align-items: center;
@@ -558,4 +563,9 @@ footer {
 }
 .containerSearch {
   display: flex;
+}
+
+.input2 {
+  border: none;
+  width: 100%;
 }
