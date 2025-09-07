@@ -556,6 +556,7 @@ footer {
 }
 
 .search2 {
+  margin-left: 100px;
   margin-top: 70px;
   display: flex;
   align-items: center;
@@ -568,4 +569,69 @@ footer {
 .input2 {
   border: none;
   width: 100%;
+}
+
+.whereCanIWatch {
+  width: 810px;
+  height: 576px;
+  padding-right: 20px;
+}
+.whereCanIWatch > div div {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.kateqoriyalarContainer {
+  margin-top: 60px;
+  margin-bottom: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.firstLi {
+  color: var(--primaryColor--);
+}
+
+.secondHr {
+  border: 1px solid var(--primaryColor--);
+}
+
+.kateqoriyalar {
+  width: 420px;
+  height: 572px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.kateqoriyalar h4 {
+  font: bold 18px var(--primaryFont--);
+}
+
+.kateqoriyalar hr {
+  width: 79%;
+  padding: none;
+  color: rgba(0, 0, 0, 0.259);
+}
+.whereCanIWatch hr {
+  width: 70%;
+  padding: none;
+  color: rgba(0, 0, 0, 0.232);
+}
+
+.kateqoriyalar ul {
+  text-align: justify;
+  padding-top: 20px;
+  width: 100%;
+  gap: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.kateqoriyalar > ul {
+  justify-content: flex-start;
+}
+
+.kateqoriyalar ul li {
+  padding-top: 1px;
+  font: 400 16px var(--primaryFont--);
 }
