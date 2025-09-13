@@ -139,3 +139,8 @@ a:hover {
 li {
   font: 400 13px var(--primaryFont--);
 }
+
+hr {
+  gap: 0px;
+  padding: 0px 0px 0px 0px;
+}
