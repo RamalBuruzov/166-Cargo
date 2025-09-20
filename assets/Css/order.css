@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  background-color: var(--primaryColor--);
+  padding-top: 20px;
+}
+button p {
+  padding-bottom: 17px;
+  color: white;
+}
+
+.form1 div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+.form1 div input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 2px solid #cbcad7;
+  border-radius: 20px;
+}
+
+.form1 div label {
+  font: 500 16px var(--primaryFont--);
+  padding-bottom: 15px;
+}
+
+.sectionForm2Container {
+  padding-left: 40px;
+}
+
+.form2 div {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.form2 button {
+  margin-top: 20px;
+}
+
+.form2 div label {
+  font: 500 16px var(--primaryFont--);
+  padding-bottom: 15px;
+}
+
+.form2 div input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 2px solid #cbcad7;
+  border-radius: 20px;
+}
+
+.explanation {
+  padding-bottom: 30px;
+}
