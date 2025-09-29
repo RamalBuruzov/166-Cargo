@@ -458,11 +458,12 @@ footer {
 }
 
 .cardSamida {
+  padding-right: 20px;
   background-image: url(../images/cardArxaPlan.png);
-
   background-position: right;
 }
 .cardSamida2 {
+  padding-right: 20px;
   background-image: url(../images/cardArxaPlan.png);
   background-position: center;
   background-position-x: left;
