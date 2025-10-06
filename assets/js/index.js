@@ -50,3 +50,15 @@ document.querySelectorAll(".links li").forEach((listElementLinks) => {
     listElementLinks.classList.add("linkClicked");
   });
 });
+
+document.querySelectorAll(".containerTeamCards div").forEach((selected) => {
+  selected.addEventListener("click", () => {
+    selected.classList.add("teamCardClicked");
+
+    document.querySelectorAll(".containerTeamCards div").forEach((check) => {
+      if (check !== selected) {
+        check.classList.remove("teamCardClicked");
+      }
+    });
+  });
+});
