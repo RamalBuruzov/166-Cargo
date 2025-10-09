@@ -51,6 +51,18 @@ document.querySelectorAll(".links li").forEach((listElementLinks) => {
   });
 });
 
+document.querySelectorAll(".dropdown a").forEach((selected) => {
+  selected.addEventListener("click", () => {
+    selected.classList.add("choosed");
+
+    document.querySelectorAll(".dropdown a").forEach((check) => {
+      if (check !== selected) {
+        check.classList.remove("choosed");
+      }
+    });
+  });
+});
+
 document.querySelectorAll(".containerTeamCards div").forEach((selected) => {
   selected.addEventListener("click", () => {
     selected.classList.add("teamCardClicked");

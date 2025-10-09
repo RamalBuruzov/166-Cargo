@@ -1,0 +1,41 @@
+.choosed {
+  color: #b8b8b8;
+}
+
+.containerThankImg {
+  display: flex;
+}
+
+.containerThankImg .img {
+  margin-left: 100px;
+}
+
+.buttonThankYou {
+  width: 208px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  background-color: var(--primaryColor--);
+  border-radius: 10px;
+}
+.buttonThankYou p {
+  color: white;
+  font: 500 16px var(--primaryFont--);
+}
+
+.thankYouCard {
+  margin-top: 45px;
+}
+
+.thankYouCard p {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.thankYouCard h1 {
+  font: 600 36px var(--primaryFont--);
+}
+
+.buttonThankYou svg {
+  padding-left: 10px;
+}
